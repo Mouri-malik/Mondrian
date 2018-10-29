@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+/* CLASS DE LA SECTION*/
+
+.container {
+  margin: 0 auto;
+  border: 0px solid black;
+  flex-direction: column;
+  display: flex;
+  width: 600px;
+  height: 600px;
+}
+
+/* ID DE LA PREMIERE LIGNE */
+.row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 10px solid black;
+  width: 600px;
+  height: 180px;
+}
+
+/* ID DE LA DEUXIEME LIGNE */
+.row2 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 10px solid black;
+  width: 600px;
+  height: 200px;
+}
+
+/* ID DE LA 3EME LIGNE */
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/*APPEL DE LA CLASS DU 1ER CUBE BLANC DE LA 1ERE LIGNE*/
+.row .bgwhite {
+  flex-direction: row;
+  border-right: 10px solid black;
+  width: 10px;
+  height: 180px;
+}
+
+/*APPEL DE LA CLASS DU CUBE JAUNE DE LA 1ERE LIGNE*/
+.row .bgyellow  {
+  flex-direction:;
+  border-right: 10px solid black;
+  width: 100px;
+  height: 180px;
+}
+
+
+.row .bgred {
+  border-right: 10px solid black;
+  width: 200px;
+  height: 180px;
+}
+
+/*APPEL DE LA CLASS DU CUBE BLEU DE LA 1ERE LIGNE*/
+.row .bgblue {
+    border-right: 8px solid black;
+    width: 280px;
+    height: 180px;
+  }
+
+/*APPEL DU 1ER CUBE BLANC DE LA 2EME LIGNE*/
+
+.row2 .white1 {
+  border-right: 10px solid black;
+  width: 10px;
+}
+
+/*APPEL DU 2EME CUBE BLANC DE LA 2EME LIGNE*/
+.row2 .white2 {
+  border-right: 10px solid black;
+  width: 100px;
+}
+
+/*APPEL DU 3EME CUBE BLANC DE LA 2EME LIGNE*/
+.row2 .white3 {
+  border-right: 10px solid black;
+  width: 200px;
+}
+
+/*APPEL DU 4EME CUBE BLANC DE LA 2EME LIGNE*/
+.row2 .white4 {
+  border-right:10px solid black;
+  width: 90px;
+}
+
+/*APPEL DU CUBE ROUGE DE LA 2EME LIGNE*/
+.row2 .red2 {
+  border-right: 8px solid black;
+  width: 180px;
+}
+
+/* CREATION DU 1ER CUBE BLANC DE LA 3EME COLONE*/
+.row3 .whitecolone {
+  border-right: 10px solid black;
+  width: 10px;
+  height: 200px;
+}
+
+.row3 .doubleligne {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0px solid black;
+  height: 200px;
+  width: 600px;
+}
+
+
+.row3 .doubleligne .ligne1 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: none;
+  height: 50%;
+  width: 581px;
+}
+
+.ligne1 .whitecube {
+  border-right: 10px solid black;
+  height: 100%;
+  width: 96px;
+}
+
+.ligne1 .Caseblue {
+  border-right: 10px solid black;
+  width: 286px;
+}
+
+.ligne1 .lastwhite {
+  width: 172px;
+  border-right: 8px solid;
+}
+
+.ligne2 {
+  display: flex;
+  flex-direction: row;
+  border-top: 10px solid black;
+  height: 100px;
+}
+
+.ligne2 .cubered {
+  border-right: 10px solid black;
+  height: 100%;
+  width: 96px;
+}
+
+.ligne2 .Caseyellow {
+  border-right: 10px solid black;
+  height: 100%;
+  width: 284px;
+}
+
+.ligne2 .lastwhite2 {
+  border-radius: 10px solid white;
+  width: 172px;
+}
