@@ -1,0 +1,41 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 640px) {
+  .container {
+    width: 100%;
+  }
+
+
+    body {
+      width: 100%;
+    }
+
+  .container {
+    width:100%
+
+  }
+
+  .container .row {
+    width: 100%;
+  }
+
+  .container .row2 {
+    width: 100%;
+  }
+
+  .container .row3 {
+    width: 100%;
+  }
+
+  .container .doubleligne {
+    width: 100%
+  }
+
+  .container .doubleligne .ligne1 {
+    width: 100%;
+  }
+
+  .container .doubleligne .ligne2 {
+    width: 100%;
+  }
+
+}
